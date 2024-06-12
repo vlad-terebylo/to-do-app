@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ToDoApp
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: root
+    password: pokus
+
+server:
+  port: 8082
+  servlet:
+    context-path: /api
