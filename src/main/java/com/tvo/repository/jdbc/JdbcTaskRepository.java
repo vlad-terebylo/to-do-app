@@ -11,6 +11,7 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations;
 import java.util.List;
 import java.util.Map;
 
+
 @RequiredArgsConstructor
 public class JdbcTaskRepository implements TaskRepository {
     private static final BeanPropertyRowMapper<Task> TASK_ROW_MAPPER

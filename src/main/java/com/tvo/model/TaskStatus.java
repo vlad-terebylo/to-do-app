@@ -9,6 +9,7 @@ public enum TaskStatus {
             return IN_PROGRESS;
         }
     },
+
     IN_PROGRESS {
         @Override
         public TaskStatus next() {
